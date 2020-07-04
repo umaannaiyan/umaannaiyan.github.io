@@ -1,15 +1,44 @@
+.hero{
+    width: 100vw;
+    height: 400px;
+    background-image: url(./hero.jpg);
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.hero nav{
+    align-self: flex-end;
+    margin-top: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    padding: 10px;
+}
+
+
 body {
      font-family: "Open sans", sans-serif;
      /*font-family: 'Indie Flower', cursive;*/
      margin: 20px;
      background-color: mintcream;
+     margin: 0;
+}
+main{
+    margin: 20px;
 }
 
-h1{
-    background-color: rgb(134, 163, 91);
+.hero h1{
+    /*background-color: rgb(134, 163, 91);*/
     color: white;
     text-align: center;
     padding: 20px;
+    font-size: 40px;
+    align-self: center;
 }
 
 h2{
@@ -19,6 +48,11 @@ h2{
     padding: 1px;
     font-size: 30px;
 
+}
+h6{
+    font-size: 20px;
+    text-align: center;
+    color: white;
 }
 
 h3{
