@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Style the side navigation */
+  .sidenav {
+    height: 100vh;
+    width: 20vh;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+  }
+  .header{
+    padding-left: 21vw;
+  }
+  
+  
+  /* Side navigation links */
+  .sidenav a {
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color on hover */
+  .sidenav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the content */
+  .content {
+    /* margin-left: 200px; */
+    padding-left: 21vw;
+    margin-right: 10vw;
+  }
+
+  @media(max-width:600px){
+    .header {
+      padding-left: 35vw;
+
+    }
+    .content {
+      
+      padding-left:35vw;}
+  
+  }
+  
