@@ -47,11 +47,13 @@
   @media(max-width:600px){
     .header {
       padding-left: 35vw;
+      margin-left: 5vw;
 
     }
     .content {
       
-      padding-left:35vw;}
+      padding-left:35vw;
+      margin-left: 5vw;}
   
   }
   
