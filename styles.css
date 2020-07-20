@@ -44,7 +44,7 @@
     margin-right: 10vw;
   }
 
-  @media(max-width:600px){
+  @media(max-width:750px){
     .header {
       padding-left: 35vw;
       margin-left: 5vw;
